@@ -1,0 +1,32 @@
+{
+    "name": "brain-keeper",
+    "version": "1.0.0",
+    "description": "A new Task Manager web app",
+    "keywords": [
+        "taskmanager",
+        "brainkeeper",
+        "todo",
+        "timetable",
+        "schedular",
+        "timemanagement",
+        "tasksmanagement"
+    ],
+    "homepage": "https://github.com/OtakuTotipotent/Brain-Keeper#readme",
+    "bugs": {
+        "url": "https://github.com/OtakuTotipotent/Brain-Keeper/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OtakuTotipotent/Brain-Keeper.git"
+    },
+    "license": "ISC",
+    "author": "OtakuTotipotent",
+    "type": "commonjs",
+    "main": "app.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@types/node": "^24.10.1"
+    }
+}
