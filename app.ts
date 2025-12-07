@@ -22,4 +22,26 @@ class TaskManager {
             this.tail = newNode;
         }
     }
+
+    public printTasks(): void {
+        if (!this.head) {
+            console.log("No tasks available.");
+            return;
+        }
+        let current: TaskNode | null = this.head;
+        while (current) {
+            console.log(current.data);
+            current = current.next;
+        }
+    }
 }
+
+// --- ENTRY POINT ---
+
+const taskManager = new TaskManager();
+
+taskManager.addTask("Learn V8");
+taskManager.addTask("Master TypeScript");
+taskManager.addTask("Build Empires");
+
+taskManager.printTasks();
